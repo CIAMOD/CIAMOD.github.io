@@ -1,0 +1,35 @@
+<!-- docs/_layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/docs/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/docs/research/stability_chambers' | relative_url }}">Stability Chambers</a></li>
+        <li><a href="{{ '/docs/research/motivic_decomposition' | relative_url }}">Motivic Decomposition</a></li>
+        <li><a href="{{ '/docs/research/markov_triples' | relative_url }}">Markov Triples</a></li>
+        <li><a href="{{ '/docs/team' | relative_url }}">Team</a></li>
+        <li><a href="{{ '/docs/contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} CIAMOD. All rights reserved.</p>
+  </footer>
+</body>
+</html>
