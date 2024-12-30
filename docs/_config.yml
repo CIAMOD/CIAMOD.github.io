@@ -1,0 +1,9 @@
+title: "CIAMOD"
+description: "Computational methods and AI for moduli spaces"
+theme: null            # Disable any default GitHub Pages theme
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+kramdown:
+  syntax_highlighter: rouge
