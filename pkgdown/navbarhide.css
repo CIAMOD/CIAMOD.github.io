@@ -1,0 +1,3 @@
+body.home .navbar-nav.ms-auto {
+  display: none !important;
+}

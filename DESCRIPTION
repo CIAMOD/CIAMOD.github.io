@@ -1,0 +1,17 @@
+Package: CIAMOD
+Type: Package
+Title: CIAMOD Website
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jaime", "Pizarroso",
+      email = "jpizarroso@comillas.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: CIAMOD Website Files to build with pkgdown.
+License: LICENSE
+Encoding: UTF-8
+LazyData: true
+URL:https://github.com/CIAMOD, https://ciamod.github.io
+

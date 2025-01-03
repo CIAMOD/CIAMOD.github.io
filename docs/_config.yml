@@ -1,9 +1,0 @@
-title: "CIAMOD"
-description: "Computational methods and AI for moduli spaces"
-theme: jekyll-theme-minimal
-markdown: kramdown
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-kramdown:
-  syntax_highlighter: rouge

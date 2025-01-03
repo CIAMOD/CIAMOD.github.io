@@ -1,0 +1,46 @@
+url: "https://ciamod.github.io/"
+
+template:
+  bootstrap: 5
+  # Any Bootswatch theme you want for the light version:
+  theme: breeze-light
+  # A corresponding dark theme:
+  theme-dark: breeze-dark
+  # Enable the light-switch toggle:
+  light-switch: true
+  # Enable KaTeX or MathJax for math rendering as you prefer:
+  math-rendering: katex
+
+navbar:
+  bg: primary
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: Research
+      menu:
+        - text: Stability Chambers
+          href: articles/stability_chambers.html
+        - text: Motivic Decomposition
+          href: articles/motivic_decomposition.html
+        - text: Markov Triples
+          href: articles/markov_triples.html
+    - text: Team
+      href: articles/team.html
+    - text: Contact
+      href: articles/contact.html
+    - text: About
+      href: articles/about.html
+    - icon: fa-github
+      href: "https://github.com/CIAMOD"
+
+home:
+  sidebar:
+    html: sidebar.html
+
+footer:
+  structure:
+    left: developed_by
+    right: legal
+  components:
+    developed_by: "CIAMOD - Computational Intelligence and Applied Mathematics for Optimization and Decision Making."
+    legal: "Provided without **any warranty**."

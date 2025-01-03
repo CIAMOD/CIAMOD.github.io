@@ -1,15 +1,19 @@
 ---
-title: "readme"
-output: github_document
+title: "index"
+output: html_document
 ---
 
-
 # Welcome to CIAMOD
-### Applications of computational methods and artificial intelligence to the study of moduli spaces
+
+![CIAMOD Logo](../man/figures/ciamod_logo.png) 
+
+Applications of computational methods and artificial intelligence to the study of moduli spaces
 
 **CIAMOD** is a research project investigating the interplay of advanced computing and AI with crucial open problems in theoretical mathematics and geometry. Below is a quick overview of our three main research paths:
 
 ---
+
+## Research Paths
 
 ### 1. Stability Chambers
 **Summary of recent progress**:  
@@ -43,4 +47,8 @@ output: github_document
 [Read more about Markov Triples →](articles/markov_triples.html)
 
 ---
+
+We invite you to dive deeper into each topic or explore our [Team](articles/team.html) and [Contact](articles/about.html) pages for collaboration opportunities.
+
+**CIAMOD** is hosted by the Institute for Research in Technology and funded by Convocatoria de Financiación de Proyectos de Investigación Propios 2023, Universidad Pontificia Comillas, and by grants PID2022-142024NB-I00 and PID2019-104735RB-C42 funded by MCIN/AEI/10.13039/501100011033.
 
