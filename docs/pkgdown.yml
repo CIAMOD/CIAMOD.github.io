@@ -1,0 +1,14 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  about: about.html
+  contact: contact.html
+  markov_triples: markov_triples.html
+  motivic_decomposition: motivic_decomposition.html
+  stability_chambers: stability_chambers.html
+  team: team.html
+last_built: 2025-01-03T01:19Z
+urls:
+  reference: https://ciamod.github.io/reference
+  article: https://ciamod.github.io/articles
